@@ -11,6 +11,17 @@ load_dotenv()
 client = CommClient(api_key=os.getenv("CASPIAN_API_KEY"))
 ai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
+# Connect the Telegram channel using the token from your .env
+# Fetch the token
+telegram_token = os.getenv("TELEGRAM_BOT_TOKEN")
+
+# Validate it exists to satisfy the type checker
+if not telegram_token:
+    raise ValueError("TELEGRAM_BOT_TOKEN is not set in the .env file")
+
+# Connect the Telegram channel
+client.connect_telegram(bot_token=telegram_token)
+
 SYSTEM_PROMPT = """
 You are an intelligent customer onboarding and FAQ assistant powered by the Caspian SDK.
 Your job is to answer support questions accurately, concisely, and politely across all connected Caspian messaging channels.
