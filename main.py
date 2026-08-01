@@ -9,7 +9,12 @@ load_dotenv()
 
 # Initialize clients
 client = CommClient(api_key=os.getenv("CASPIAN_API_KEY"))
-ai = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+# UPDATED: Point OpenAI client to Gemini using your Gemini API key
+ai = OpenAI(
+    api_key=os.getenv("GEMINI_API_KEY"),
+    base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
+)
 
 # Connect the Telegram channel using the token from your .env
 # Fetch the token
@@ -33,8 +38,9 @@ def handle_message(message):
     print(f"[Inbound Message] {user_query}")
 
     try:
+        # UPDATED: Use the current Gemini free tier model without the 'models/' prefix
         response = ai.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gemini-3.6-flash",
             messages=[
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": user_query}
