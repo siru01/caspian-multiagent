@@ -11,6 +11,96 @@
       "channel": "web_dashboard",
       "query": "what is caspian",
       "reply": "**Caspian** is a customer engagement platform and SDK designed to power intelligent AI assistants across multiple messaging channels. \n\nIt helps businesses:\n* **Automate Customer Onboarding:** Guide new users through setup, features, and workflows smoothly.\n* **Provide Instant Support:** Answer FAQs and resolve common inquiry tickets accurately around the clock.\n* **Enable Omni-Channel Communication:** Connect with customers seamlessly across various messaging platforms and support channels.\n\nHow can I help you today?"
+    },
+    {
+      "timestamp": "2026-08-04T19:22:31.447041+00:00",
+      "channel": "web_dashboard",
+      "query": "what is weather in london",
+      "reply": "I don't have access to real-time weather data. For current weather updates in London, I recommend checking a weather service or app like BBC Weather or Weather.com.\n\nHowever, if you have any questions regarding Caspian SDK, account onboarding, or messaging channel integrations, I'd be happy to help!"
+    },
+    {
+      "timestamp": "2026-08-04T19:23:30.137825+00:00",
+      "channel": "discord",
+      "query": "Hi",
+      "reply": "Hello! Welcome. I am your customer onboarding and FAQ assistant. How can I help you today?"
+    },
+    {
+      "timestamp": "2026-08-04T19:23:59.125148+00:00",
+      "channel": "discord",
+      "query": "What is the benifit of this",
+      "reply": "Using a Caspian-powered assistant brings several key benefits for your customer support and onboarding experience:\n\n1. **Instant, 24/7 Assistance:** Get fast, accurate answers to your questions at any time without waiting in line.\n2. **Multi-Channel Access:** Reach support seamlessly across all your preferred messaging platforms.\n3. **Smooth Onboarding:** Receive clear, step-by-step guidance to help you get started quickly with your product or service.\n4. **Reliable Resolutions:** Access up-to-date, consistent information, with easy escalation to human support agents whenever deeper help is needed.\n\nIf you are asking about the benefits of a **specific feature, product, or plan**, please let me know what you'd like to learn more about!"
+    },
+    {
+      "timestamp": "2026-08-04T20:28:45.666365+00:00",
+      "channel": "web_dashboard",
+      "query": "hola",
+      "reply": "¡Hola! Soy tu asistente de incorporación y soporte. ¿En qué puedo ayudarte hoy?"
+    },
+    {
+      "timestamp": "2026-08-04T20:30:03.212842+00:00",
+      "channel": "web_dashboard",
+      "query": "what up todya",
+      "reply": "Hello! I'm here and ready to help you. How can I assist you with your onboarding or answer any questions you have today?"
+    },
+    {
+      "timestamp": "2026-08-04T20:30:39.664242+00:00",
+      "channel": "web_dashboard",
+      "query": "hi",
+      "reply": "Hello! Welcome. How can I assist you today?"
+    },
+    {
+      "timestamp": "2026-08-04T20:30:59.983463+00:00",
+      "channel": "telegram",
+      "query": "Hi",
+      "reply": "Hello! Welcome. How can I help you today with your onboarding or any questions you might have?"
+    },
+    {
+      "timestamp": "2026-08-04T20:31:23.211906+00:00",
+      "channel": "telegram",
+      "query": "What onboarding do you do?",
+      "reply": "I assist with end-to-end customer and developer onboarding across all your connected Caspian messaging channels (e.g., Web, Slack, WhatsApp, Teams, Telegram, and Email). \n\nHere is what I can help you with during onboarding:\n\n1. **User Account & Profile Setup:** Guiding new users through sign-up, profile completion, preferences, and account configuration.\n2. **Product Walkthroughs & Quick Starts:** Step-by-step tutorials and best practices to help users get value from your product quickly.\n3. **Channel & SDK Integration Support:** Helping developers set up the Caspian SDK, configure webhooks, generate API keys, and connect messaging platforms.\n4. **Data & Information Gathering:** Collecting required user details, intake forms, or initial compliance/KYC documents directly within chat.\n5. **Instant FAQ & Setup Support:** Answering initial questions 24/7 to reduce drop-off and clear blockers during the activation process.\n\nHow can I help you with your onboarding today, or are you looking to integrate onboarding flows for your own application?"
+    },
+    {
+      "timestamp": "2026-08-04T20:32:15.427740+00:00",
+      "channel": "telegram",
+      "query": "So on what specific page you work on",
+      "reply": "As an AI onboarding and FAQ assistant powered by the Caspian SDK, I don't work on just a single web page. Instead, I operate directly within the chat widget or messaging interface on the website, mobile app, or messaging channel you are currently using to talk to me! \n\nMy goal is to assist you wherever Caspian messaging is integrated—helping answer your questions, guiding you through onboarding, and providing support across all connected channels. How can I help you today?"
+    },
+    {
+      "timestamp": "2026-08-04T20:32:37.511409+00:00",
+      "channel": "telegram",
+      "query": "Okay i understand",
+      "reply": "Great! Feel free to reach out if you have any other questions or need help with anything else. I'm always here to assist!"
+    },
+    {
+      "timestamp": "2026-08-04T20:32:52.509817+00:00",
+      "channel": "telegram",
+      "query": "Do you know chatgpt or gemini",
+      "reply": "Yes, I am familiar with them! ChatGPT (developed by OpenAI) and Gemini (developed by Google) are both large language models designed for conversational AI and various text tasks.\n\nI am an AI assistant powered by the **Caspian SDK**, specifically tailored to help with customer onboarding, answer product FAQs, and provide support. \n\nHow can I assist you today?"
+    },
+    {
+      "timestamp": "2026-08-04T20:33:25.286371+00:00",
+      "channel": "telegram",
+      "query": "So tell everything about your company",
+      "reply": "We are powered by the **Caspian SDK**, designed to streamline customer communication, onboarding, and support across all your messaging channels. \n\nHere is what we do:\n\n1. **Seamless Customer Onboarding:** We guide new users step-by-step through setup, account creation, and feature discovery to ensure a smooth getting-started experience.\n2. **Instant FAQ & Support:** We provide accurate, real-time answers to customer inquiries 24/7, reducing wait times and support ticket backlogs.\n3. **Omnichannel Messaging:** Powered by the Caspian SDK, we deliver a consistent, unified experience across all connected messaging platforms and chat interfaces.\n\nHow can I assist you with your onboarding or answer any specific questions today?"
+    },
+    {
+      "timestamp": "2026-08-04T20:33:44.444648+00:00",
+      "channel": "telegram",
+      "query": "Hiw do they earn ?",
+      "reply": "Depending on whether you are referring to **businesses**, **creators/partners**, or **developers** using the Caspian SDK, earnings and ROI are generated in a few main ways:\n\n---\n\n### 1. For Businesses & Organizations\n* **Increased Sales Conversions:** Caspian SDK automates onboarding and answers customer questions instantly 24/7 across messaging channels, converting potential leads into paying customers faster.\n* **Cost Reduction:** Automating routine FAQs and support reduces operational overhead costs, freeing up human staff for high-value sales activities.\n* **24/7 Lead Qualification:** Captures high-intent leads and customer information even outside business hours.\n\n---\n\n### 2. For Developers & Agencies\n* **Building Custom Onboarding Solutions:** Developers use Caspian SDK to build and sell tailored AI assistants, onboarding bots, and messaging integrations to client organizations.\n* **Retainer & Managed Services:** Offering ongoing management, analytics, and optimization of Caspian-powered bots for clients.\n\n---\n\n### 3. For Partners & Affiliates\n* **Referral Programs:** Earnings through referral commissions or partner benefits by introducing new organizations to the Caspian platform.\n\n---\n\n*If you were asking about a specific earning model, partner program, or feature, please let me know so I can give you the exact details!*"
+    },
+    {
+      "timestamp": "2026-08-04T20:34:14.972953+00:00",
+      "channel": "telegram",
+      "query": "Konichiya",
+      "reply": "Konnichiwa! 👋 \n\nWelcome! How can I assist you today? Feel free to ask any questions about onboarding, getting started, or using our services."
+    },
+    {
+      "timestamp": "2026-08-04T20:34:26.147958+00:00",
+      "channel": "telegram",
+      "query": "Sayonara",
+      "reply": "Sayonara! 👋 \n\nIf you ever have more questions or need help with Caspian in the future, feel free to reach out anytime. Have a wonderful day!"
     }
   ]
 }

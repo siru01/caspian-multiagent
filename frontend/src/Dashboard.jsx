@@ -155,7 +155,7 @@ function Dashboard() {
             </section>
 
             <section className="message-log">
-              <h3>Recent Messages</h3>
+              <h3>Recent Messages (Latest 20)</h3>
               <div className="table-responsive">
                 <table>
                   <thead>
@@ -167,7 +167,7 @@ function Dashboard() {
                     </tr>
                   </thead>
                   <tbody>
-                    {displayMessages.map((m, i) => (
+                    {displayMessages.slice(0, 20).map((m, i) => (
                       <tr key={i}>
                         <td>{new Date(m.timestamp).toLocaleString()}</td>
                         <td>
