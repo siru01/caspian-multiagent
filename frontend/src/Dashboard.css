@@ -1,0 +1,261 @@
+/* Lock the HTML and body to prevent scrolling */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden; /* Disables outer scrolling */
+  font-family: "JetBrains Mono", 'Courier New', Courier, monospace;
+  background-color: #f7ebe8;
+  color: #1f2328;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 15px;
+  box-sizing: border-box;
+  overflow: hidden; /* Ensures container stays fixed */
+}
+
+/* Header */
+.app-header h1 {
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  background-color: #d8c4b6;
+  border: 2px solid #333;
+  width: 500px;
+  max-width: 90%;
+  justify-content: space-around;
+  padding: 4px;
+  margin-bottom: 15px;
+}
+
+.nav-btn {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 0.95rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 8px 15px;
+  cursor: pointer;
+  flex: 1;
+  text-align: center;
+}
+
+.nav-btn:hover {
+  background-color: #c4b0a2;
+}
+
+.nav-btn.active {
+  background-color: #b59f91;
+  text-decoration: underline;
+}
+
+/* Content Container - Locked height so it fits perfectly without scrolling */
+.content-container {
+  width: 900px;
+  max-width: 95%;
+  height: calc(100vh - 160px); /* Dynamically fills remaining space */
+  background-color: #b9e3f6;
+  border: 2px solid #333;
+  padding: 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Dashboard Styles */
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.dashboard-header h2 {
+  font-size: 1.3rem;
+  margin: 0 0 2px 0;
+}
+
+.subtitle {
+  color: #4b5563;
+  margin: 0 0 10px 0;
+  font-size: 0.85rem;
+}
+
+.stats-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 10px;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #f4f4f5;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  min-width: 90px;
+  border: 1px solid #ccc;
+}
+
+.stat-count {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.stat-label {
+  font-size: 0.7rem;
+  color: #4b5563;
+  text-transform: uppercase;
+}
+
+.message-log {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.message-log h3 {
+  margin: 0 0 8px 0;
+  font-size: 1rem;
+}
+
+.table-responsive {
+  flex: 1;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  min-height: 0;
+}
+
+.message-log table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.message-log th,
+.message-log td {
+  text-align: left;
+  padding: 0.4rem;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 0.8rem;
+}
+
+.channel-badge {
+  padding: 0.1rem 0.4rem;
+  border-radius: 999px;
+  font-size: 0.65rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.channel-telegram {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.channel-discord {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+/* Chatbox Section */
+.chatbox-section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chatbox-section h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+}
+
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #fff;
+  border: 1px solid #333;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto; /* Internal chat scroll if messages overflow */
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.message {
+  padding: 6px 10px;
+  border-radius: 6px;
+  max-width: 80%;
+  font-size: 0.85rem;
+}
+
+.message.ai {
+  background-color: #f0f0f0;
+  color: #333;
+  align-self: flex-start;
+}
+
+.message.user {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  align-self: flex-end;
+}
+
+.chat-input-area {
+  display: flex;
+  gap: 8px;
+}
+
+.chat-input-area input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #333;
+  font-family: inherit;
+  font-size: 0.85rem;
+}
+
+.chat-input-area button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+/* Footer */
+.app-footer {
+  margin-top: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.app-footer span {
+  text-decoration: underline;
+  text-decoration-color: red;
+}

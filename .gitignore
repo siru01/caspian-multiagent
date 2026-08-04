@@ -1,3 +1,24 @@
 .env
 __pycache__/ 
 venv/
+
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data (runtime-generated, keep structure but not content if you prefer)
+# data/analytics.json
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS/editor
+.DS_Store
+.vscode/

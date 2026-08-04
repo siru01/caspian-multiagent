@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "timestamp": "2026-08-04T19:14:19.571195+00:00",
+      "channel": "web_dashboard",
+      "query": "hi",
+      "reply": "Hello! Welcome. How can I help you today?"
+    },
+    {
+      "timestamp": "2026-08-04T19:14:29.986941+00:00",
+      "channel": "web_dashboard",
+      "query": "what is caspian",
+      "reply": "**Caspian** is a customer engagement platform and SDK designed to power intelligent AI assistants across multiple messaging channels. \n\nIt helps businesses:\n* **Automate Customer Onboarding:** Guide new users through setup, features, and workflows smoothly.\n* **Provide Instant Support:** Answer FAQs and resolve common inquiry tickets accurately around the clock.\n* **Enable Omni-Channel Communication:** Connect with customers seamlessly across various messaging platforms and support channels.\n\nHow can I help you today?"
+    }
+  ]
+}

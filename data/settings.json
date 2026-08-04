@@ -1,0 +1,5 @@
+{
+  "agent_name": "Caspian Agent",
+  "reply_language": "en",
+  "channels_enabled": ["telegram", "discord"]
+}
