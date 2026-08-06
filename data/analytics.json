@@ -107,6 +107,24 @@
       "channel": "web_dashboard",
       "query": "hi",
       "reply": "Hello! Welcome. I am your customer onboarding and FAQ assistant. \n\nHow can I help you today?"
+    },
+    {
+      "timestamp": "2026-08-06T19:45:46.869985+00:00",
+      "channel": "web_dashboard",
+      "query": "is social media good for children ?",
+      "reply": "Social media can have both positive and negative impacts on children, depending on their age, maturity level, and how they use it. \n\n### **Potential Benefits**\n* **Connection:** Helps children stay in touch with friends, family, and peers.\n* **Learning & Creativity:** Offers access to educational content, creative inspiration, and skill-building tutorials.\n* **Community:** Allows kids to find supportive groups centered around shared hobbies or interests.\n\n### **Potential Risks**\n* **Mental Health Issues:** Excessive use is linked to anxiety, depression, lower self-esteem, and sleep disruption.\n* **Safety & Privacy:** Risks include exposure to cyberbullying, inappropriate content, online predators, and privacy concerns.\n* **Screen Addiction:** Can distract from physical activity, schoolwork, and real-world social interaction.\n\n### **General Guidelines**\n* **Age Limits:** Most major platforms require users to be at least **13 years old** due to privacy and developmental considerations.\n* **Parental Guidance:** Setting screen time limits, supervising activity, using privacy settings, and maintaining open conversations about online safety can help mitigate many of the risks.\n\n---\n*If you have questions about a specific platform's safety settings, account controls, or age requirements, please let me know!*"
+    },
+    {
+      "timestamp": "2026-08-06T19:46:29.026366+00:00",
+      "channel": "web_dashboard",
+      "query": "do you know  black panther ?",
+      "reply": "Yes, I do! \"Black Panther\" most commonly refers to the iconic Marvel superhero, King T'Challa of the fictional nation of Wakanda, as well as the acclaimed Marvel Studios films. It also refers to the historical political organization, the Black Panther Party, founded in 1966.\n\nWhile I know a bit about pop culture and history, my main specialty is helping you with customer onboarding, support, and messaging features powered by the Caspian SDK. \n\nIs there anything specific I can help you with regarding Caspian SDK or customer support today?"
+    },
+    {
+      "timestamp": "2026-08-06T19:46:54.454571+00:00",
+      "channel": "web_dashboard",
+      "query": "go you knowiron man ?",
+      "reply": "Yes, I do! Iron Man is the iconic Marvel superhero—Tony Stark—known for his genius intellect and high-tech armored suits. \n\nWhile I don't build armor suits, I am here as your Caspian SDK-powered assistant to help answer your questions or guide you through onboarding. How can I help you today?"
     }
   ]
 }
