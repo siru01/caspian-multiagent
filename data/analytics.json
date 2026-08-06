@@ -101,6 +101,12 @@
       "channel": "telegram",
       "query": "Sayonara",
       "reply": "Sayonara! 👋 \n\nIf you ever have more questions or need help with Caspian in the future, feel free to reach out anytime. Have a wonderful day!"
+    },
+    {
+      "timestamp": "2026-08-06T19:42:23.665454+00:00",
+      "channel": "web_dashboard",
+      "query": "hi",
+      "reply": "Hello! Welcome. I am your customer onboarding and FAQ assistant. \n\nHow can I help you today?"
     }
   ]
 }
